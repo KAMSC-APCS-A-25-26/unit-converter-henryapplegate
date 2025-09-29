@@ -14,7 +14,7 @@ public class DistanceConverter
 
         Scanner sc = new Scanner(System.in);
         boolean menu = true;
-        double distance = 0.0
+        double distance = 0.0;
 
         while (menu)
         {

@@ -32,7 +32,7 @@ public class DistanceConverter
                     distance = sc.nextDouble();
                     System.out.println("\nConversion Results:");
                     System.out.println("Miles: " + distance);
-                    distance *= 1.609;
+                    distance *= 1.60935;
                     System.out.println("Kilometers: " + distance);
                     break;
                 case 2:
@@ -41,7 +41,7 @@ public class DistanceConverter
                     distance = sc.nextDouble();
                     System.out.println("\nConversion Results:");
                     System.out.println("Kilometers: " + distance);
-                    distance /= 1.609;
+                    distance /= 1.60935;
                     System.out.println("Miles: " + distance);
                     break;
                 }

@@ -27,6 +27,11 @@ public class DistanceConverter
 
             switch (choice)
             {
+                default:
+                {
+                    System.out.println("Error");
+                    break;
+                }
                 case 1:
                     System.out.print("\nEnter distance in miles: ");
                     distance = sc.nextDouble();

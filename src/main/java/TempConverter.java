@@ -35,19 +35,17 @@ public class TempConverter {
                     temp = sc.nextDouble();
                     System.out.println("\nConversion Results:");
                     System.out.println("Fahrenheit: " + temp);
-                    temp = (temp-32) * (5/9);
-                    System.out.println("Celsius: " + temp);
+                    temp = (temp - 32) * (5.0 / 9.0);
+                    System.out.println("Celsius: " + temp + "\n\n");
                     break;
                 case 2:
-                {
                     System.out.print("\nEnter temperature in Celsius: ");
                     temp = sc.nextDouble();
                     System.out.println("\nConversion Results:");
                     System.out.println("Celsius: " + temp);
-                    temp = temp * (9/5) + 32;
-                    System.out.println("Fahrenheit: " + temp);
+                    temp = temp * (9.0 / 5.0) + 32;
+                    System.out.println("Fahrenheit: " + temp + "\n\n");
                     break;
-                }
                 case 3:
                 {
                     System.out.println("Goodbye!");

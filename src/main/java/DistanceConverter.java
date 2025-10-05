@@ -54,6 +54,7 @@ public class DistanceConverter
                 {
                     System.out.println("Goodbye!");
                     menu = false;
+                    break;
                 }
             }
         }
